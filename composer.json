@@ -1,0 +1,30 @@
+{
+    "name": "jontyy/resque-loner",
+    "authors": [
+        {
+            "name": "John White",
+            "email": "john@jontyy.com"
+        }
+    ],
+    "license":"MIT",
+    "require": {
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "chrisboulton/php-resque": "dev-master",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jontyy\\ResqueLoner\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jontyy\\ResqueLoner\\Test\\": "test"
+        }
+    },
+    "config":{
+        "bin-dir" : "./bin"
+    }
+}
